@@ -1,0 +1,30 @@
+F:\.net\session 30 MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.deps.json
+F:\.net\session 30 MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.dll
+F:\.net\session 30 MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.pdb
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.AssemblyInfoInputs.cache
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.AssemblyInfo.cs
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.csproj.CoreCompileInputs.cache
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.dll
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\refint\Demo.DAL.dll
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.pdb
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\ref\Demo.DAL.dll
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.csproj.AssemblyReference.cache
+F:\.net\session 30 MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.runtimeconfig.json
+F:\.net\session 30 MVC\Demo.DAL\bin\Debug\net5.0\Demo.DAL.runtimeconfig.dev.json
+F:\.net\session 30 MVC\Demo.DAL\obj\Debug\net5.0\Demo.DAL.genruntimeconfig.cache
+F:\.net\session 34 MVC\New folder\Demo.DAL\bin\Debug\net5.0\Demo.DAL.deps.json
+F:\.net\session 34 MVC\New folder\Demo.DAL\bin\Debug\net5.0\Demo.DAL.runtimeconfig.json
+F:\.net\session 34 MVC\New folder\Demo.DAL\bin\Debug\net5.0\Demo.DAL.runtimeconfig.dev.json
+F:\.net\session 34 MVC\New folder\Demo.DAL\bin\Debug\net5.0\Demo.DAL.dll
+F:\.net\session 34 MVC\New folder\Demo.DAL\bin\Debug\net5.0\Demo.DAL.pdb
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\Demo.DAL.csproj.AssemblyReference.cache
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\Demo.DAL.AssemblyInfoInputs.cache
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\Demo.DAL.AssemblyInfo.cs
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\Demo.DAL.csproj.CoreCompileInputs.cache
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\Demo.DAL.dll
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\refint\Demo.DAL.dll
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\Demo.DAL.pdb
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\Demo.DAL.genruntimeconfig.cache
+F:\.net\session 34 MVC\New folder\Demo.DAL\obj\Debug\net5.0\ref\Demo.DAL.dll

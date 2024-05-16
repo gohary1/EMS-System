@@ -1,0 +1,50 @@
+﻿
+@model SignupViewModel
+@{
+    ViewData["Title"] = "Signup";
+    Layout = "~/Views/Shared/AuthLayout.cshtml";
+}
+
+<h2>Registration</h2>
+    <form asp-action="SignUp" >
+        <div class="input-box">
+            <input type="text" placeholder="Enter your first name" required asp-for="Fname">
+            <span asp-validation-for="Fname" class="text-danger"></span>
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Enter your Last Name" required asp-for="Lname">
+        <span asp-validation-for="Lname" class="text-danger"></span>
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Enter your Email" required asp-for="Email">
+        <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Create password" required asp-for="Password">
+        <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Confirm password" required asp-for="ConfirmPass">
+        <span asp-validation-for="ConfirmPass" class="text-danger"></span>
+        </div>
+        <div class="policy">
+            <input type="checkbox" asp-for="IsAgree">
+            <h3>I accept all terms & condition</h3>
+        <span asp-validation-for="IsAgree" class="text-danger"></span>
+        </div>
+        <div class="input-box button">
+            <input type="Submit" value="Register Now">
+        </div>
+        <div class="text">
+            <h3>Already have an account? <a asp-action="SignIn">Login now</a></h3>
+        </div>
+    </form>
+
+@section validationScription
+{
+
+    @* <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script> *@
+
+    <partial name="_ValidationScriptsPartial" />
+}

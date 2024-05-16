@@ -1,0 +1,30 @@
+F:\.net\session 30 MVC\Demo.BLL\bin\Debug\net5.0\Demo.BLL.deps.json
+F:\.net\session 30 MVC\Demo.BLL\bin\Debug\net5.0\Demo.BLL.dll
+F:\.net\session 30 MVC\Demo.BLL\bin\Debug\net5.0\Demo.BLL.pdb
+F:\.net\session 30 MVC\Demo.BLL\bin\Debug\net5.0\Demo.DAL.dll
+F:\.net\session 30 MVC\Demo.BLL\bin\Debug\net5.0\Demo.DAL.pdb
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.AssemblyReference.cache
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.AssemblyInfoInputs.cache
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.AssemblyInfo.cs
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.CoreCompileInputs.cache
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.CopyComplete
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.dll
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\refint\Demo.BLL.dll
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\Demo.BLL.pdb
+F:\.net\session 30 MVC\Demo.BLL\obj\Debug\net5.0\ref\Demo.BLL.dll
+F:\.net\session 34 MVC\New folder\Demo.BLL\bin\Debug\net5.0\Demo.BLL.deps.json
+F:\.net\session 34 MVC\New folder\Demo.BLL\bin\Debug\net5.0\Demo.BLL.dll
+F:\.net\session 34 MVC\New folder\Demo.BLL\bin\Debug\net5.0\Demo.BLL.pdb
+F:\.net\session 34 MVC\New folder\Demo.BLL\bin\Debug\net5.0\Demo.DAL.dll
+F:\.net\session 34 MVC\New folder\Demo.BLL\bin\Debug\net5.0\Demo.DAL.pdb
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.AssemblyReference.cache
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\Demo.BLL.AssemblyInfoInputs.cache
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\Demo.BLL.AssemblyInfo.cs
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.CoreCompileInputs.cache
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\Demo.BLL.csproj.CopyComplete
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\Demo.BLL.dll
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\refint\Demo.BLL.dll
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\Demo.BLL.pdb
+F:\.net\session 34 MVC\New folder\Demo.BLL\obj\Debug\net5.0\ref\Demo.BLL.dll

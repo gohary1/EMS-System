@@ -1,0 +1,30 @@
+﻿@model ForgetPass
+@{
+    ViewData["Title"] = "forgetPass";
+    Layout = "~/Views/Shared/AuthLayout.cshtml";
+}
+
+<h2>Forget Password</h2>
+<form asp-action="forgetPass" method="post">
+    <div class="input-box">
+        <input type="text" placeholder="Enter your Email" required asp-for="Email">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger d-block" })
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="input-box button">
+        <button type="Submit" value="Send" class="btn btn-info px-5" asp-action="forgetPass">Send</button>
+    </div>
+    
+</form>
+
+@section validationScription
+{
+
+    @* <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script> *@
+
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+

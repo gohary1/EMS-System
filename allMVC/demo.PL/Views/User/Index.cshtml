@@ -1,0 +1,65 @@
+﻿@model IEnumerable<UsersViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/css/stylesheet.css" rel="stylesheet" />
+
+<h2 class="text-center">All Users</h2>
+<form class="d-flex justify-content-center align-items-center my-3" asp-action="Index">
+
+    <input class="form-control" type="search" placeholder="search by name" name="email" asp-action="Index" />
+    <input type="submit" value="search" class="btn btn-success px-4" />
+    
+</form>
+@if (Model.Count() > 0)
+{
+    <table class="table table-success table-hover">
+        <thead>
+            <tr class="font-weight-bold h6">
+                <td>@Html.DisplayNameFor(X => X.Id)</td>
+                <td>@Html.DisplayNameFor(X=>X.FName)</td>
+                <td>@Html.DisplayNameFor(X=>X.LName)</td>
+                <td>@Html.DisplayNameFor(X=>X.Email)</td>
+                <td>@Html.DisplayNameFor(X=>X.phoneNumber)</td>
+                <td>Details</td>
+                <td>Update</td>
+                <td>Delete</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var dep in Model)
+            {
+                <tr class="h5 font-weight-normal">
+                    <td class="h6">@dep.Id</td>
+                    <td>@dep.FName</td>
+                    <td>@dep.LName</td>
+                    <td>@dep.Email</td>
+                    <td>@dep.phoneNumber</td>
+                    <td>
+                        <a asp-action="details"  asp-route-id="@dep.Id" class="btn btn-primary d-flex justify-content-between align-items-center">
+                            <i class="fa-solid fa-circle-info mr-1"></i>details
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="update" asp-route-id="@dep.Id" class="btn btn-success d-flex justify-content-between align-items-center"><i class="fa-solid fa-pen-nib mr-1"></i>update</a>
+                    </td>
+                    <td>
+                        <a asp-action="delete" asp-route-id="@dep.Id" class="btn btn-outline-danger d-flex justify-content-between align-items-center"><i class="fa-solid fa-trash mr-1"></i>delete</a>
+                        <div class="big">
+                        </div> 
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="container d-flex justify-content-center bg-danger">
+        <h4 class="p-3">there are no Users</h4>
+    </div>
+}
+

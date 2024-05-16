@@ -1,0 +1,35 @@
+﻿@model resetPassViewModel
+@{
+    ViewData["Title"] = "resetPass";
+    Layout = "~/Views/Shared/AuthLayout.cshtml";
+}
+
+<h2>Reset Password</h2>
+<form asp-action="resetPass" method="post">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger d-block" });
+    @Html.ValidationSummary(true, " ", new { @class = "text-danger d-block" });
+    <div class="input-box">
+        <input type="text" placeholder="Enter your new Password" required asp-for="Password">
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <input asp-for="Email" hidden/>
+    <input asp-for="token" hidden/>
+    <div class="input-box">
+        <input type="text" placeholder="Confirm your Password" required asp-for="confirmPass">
+        <span asp-validation-for="confirmPass" class="text-danger"></span>
+    </div>
+    <div class="input-box button">
+        <button type="Submit" value="Send" class="btn btn-info px-5" asp-action="resetPass">Send</button>
+    </div>
+
+</form>
+
+@section validationScription
+{
+
+    @* <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script> *@
+
+    <partial name="_ValidationScriptsPartial" />
+}
+

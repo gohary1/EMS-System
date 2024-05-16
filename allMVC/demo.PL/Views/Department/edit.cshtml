@@ -1,0 +1,27 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "edit";
+}
+
+<h3 class="text-center">edit</h3>
+<form class="form-group" asp-action="edit">
+    <div asp-validation-summary="All"></div>
+    <div class="form-floating mb-3">
+        <label asp-for="Code">Code</label>
+        <input type="number" class="form-control" asp-for="Code" placeholder="Code">
+        <span asp-validation-for="Code" class="text-danger"></span>
+    </div>
+    <div class="form-floating mb-3">
+        <label asp-for="Name">Name</label>
+        <input type="name" class="form-control" asp-for="Name" placeholder="Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-floating mb-3">
+        <label asp-for="DateOfCreation">Date Of Creation</label>
+        <input type="date" class="form-control" asp-for="DateOfCreation" placeholder="DateOfCreation">
+    </div>
+
+    <input type="submit" value="save" class="btn btn-outline-success" asp-action="edit" />
+    <a asp-controller="Department" asp-action="Index" class="btn btn-light"> Back To List</a>
+</form>
+

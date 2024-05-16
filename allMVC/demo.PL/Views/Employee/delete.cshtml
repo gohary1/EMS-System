@@ -1,0 +1,59 @@
+﻿@model EmployeeViewModel
+@{
+    ViewData["Title"] = "delete";
+}
+@inject IUnitOfWork _department
+@{
+    var department = _department.DepRepo.Get((int)Model.dp_Id);
+}
+
+<h3 class="text-center">are you sure you want to delete @Model.Name</h3>
+<form class="form-group" asp-action="delete">
+    <div class=" mb-3">
+        <label asp-for="Name">Name</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Name" readonly>
+    </div>
+    <div class=" mb-3">
+        <label asp-for="Age">Age</label>
+        <input type="number" class="form-control" asp-for="Age" placeholder="Age" readonly>
+
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" id="isActiveYes" asp-for="IsActive" value="true" readonly>
+        <label class="form-check-label" for="isActiveYes">
+            YES
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" id="isActiveNo" asp-for="IsActive" value="false" readonly>
+        <label class="form-check-label" for="isActiveNo">
+            NO
+        </label>
+    </div>
+
+    <div class=" mb-3">
+        <label asp-for="Email">Email</label>
+        <input type="text" class="form-control" asp-for="Email" placeholder="Email" readonly>
+
+    </div>
+    <div class=" mb-3">
+        <label asp-for="PhoneNumber">PhoneNumber</label>
+        <input type="text" class="form-control" asp-for="PhoneNumber" placeholder="PhoneNumber" readonly>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="HiringDare">HiringDare</label>
+        <input type="date" class="form-control" asp-for="HiringDare" readonly>
+
+    </div>
+    <div class="d-flex justify-content-start align-items-center mb-3">
+        <label class="font-weight-bold h5" asp-for="dp_Id">Dpartment:</label>
+        <input type="text" hidden asp-for="dp_Id" >  @* lazm akhale deh fahem?? *@
+        <input type="text" class="btn btn-dark ms-2 d-block px-5" value="@department?.Name" readonly>
+    </div>
+
+    <input type="submit" value="delete" class="btn btn-danger" asp-action="delete" />
+    <a asp-controller="Employee" asp-action="Index" class="btn btn-light"> Back To List</a>
+</form>
+
+
